@@ -1,0 +1,51 @@
+body{
+    padding: 15px;
+    background: linear-gradient(45deg,#713e8b,#d4242f);
+    color:white;
+}
+
+#login,#srounds{
+    width: 100vw;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    display: inline;
+}
+
+.btn-primary{
+    background: transparent;
+    border: 1px solid white;
+}
+
+.btn-primary:hover{
+    background: transparent;
+    border: 1px solid white;
+    box-shadow: 5px 5px black;
+}
+
+.form-control{
+    background: transparent;
+    border: 1px solid white;   
+}
+
+.form-control::placeholder{
+    color: white;
+}
+
+.list-group-item{
+    background:transparent;
+}
+
+td{
+    color: white;
+}
+
+h1{
+    text-align: justify;
+}
+
