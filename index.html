@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script>
+        function loginpage(){
+            window.location = 'login.html';
+        }
+    </script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col"></div>
+            <form class="col-md">
+                <h1 class="display-4">Register</h1>
+                <label>First Name</label>
+                <input type="text" class="form-control" placeholder="Enter first name">
+                <label>Last Name</label>
+                <input type="text" class="form-control" placeholder="Enter last name">
+                <label>Gender</label>
+                <div class="form-row">
+                    <div class="col">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                            <label class="form-check-label">Male</label>
+                          </div>    
+                    </div>
+                    <div class="col">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                            <label class="form-check-label">Female</label>
+                          </div>
+                    </div>
+                </div>
+                <label>Date of Birth</label>
+                <input type="date" class="form-control">
+                <label>Phone Number</label>
+                <input type="number" class="form-control">
+                <label>Email address</label>
+                <input type="email" class="form-control" placeholder="Enter email">
+                <label>College Name</label>
+                <input type="text" placeholder="Enter college name" class="form-control">
+                <label>DeltaX Registration Number</label>
+                <input type="text" placeholder="Enter deltax registartion number" class="form-control">
+                <label>Technical Skills</label>
+                <textarea class="form-control" placeholder="Enter Technical skills"></textarea>
+                <label>Your Acheivements</label>
+                <textarea class="form-control" placeholder="Enter your acheivements"></textarea>
+                <label>Your City</label>
+                <input type="text" placeholder="Enter your city" class="form-control">
+                <label>Password</label>
+                <input type="password" class="form-control" placeholder="Password">
+                <label>Confirm Password</label>
+                <input type="password" class="form-control" placeholder="Password">
+                <br>
+                <div><button type="submit" class="form-control btn btn-primary">Register</button></div>
+                <br>
+                <div><button type="button" onclick="loginpage()" class="form-control btn btn-primary">Login</button></div>
+              </form>
+        </div>
+    </div>
+    
+</body>
+</html>
